@@ -1,0 +1,53 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Payment Gateway</title>
+    </head>
+    <body>
+        <h1>Welcome To Payment Gateway</h1>
+        <form action="">
+            <p>Name
+            <input type="text" name="name" aria-required="true"></p>
+            <p>Gender:&nbsp;&nbsp;
+                Male<input type="radio" name="gender">
+                Female<input type="radio" name="gender">
+            </p>
+            <fieldset>
+                <legend>Address</legend>
+                <p>Enter the address:
+                    <textarea name="address" cols="30" rows="5" aria-required="true"></textarea>    
+                </p>
+            </fieldset>
+            <p>Mail: 
+                <input type="text" name="email">
+            </p>
+            <p>PinCode
+                <input type="number" name="pin">
+            </p>
+            <hr>
+            <h2>Payment Details</h2>
+            <p>Card Type: 
+                <select name="cardtype" id="cardtype" aria-required="true">
+                    <option value="empty">--Select a Card Type--</option>
+                    <option value="creditcard">Credit Card</option>
+                    <option value="debitcard">Debit Card</option>
+                    <option value="UPI">UPI</option>
+                    <option value="Cod">Cash On Delivery</option>
+                </select>
+            </p>
+            <p>Card Number: 
+                <input type="number" name="cardnumber" aria-required="true">
+            </p>
+            <p>Card Expiration Date
+                <input type="date" name="expdate" aria-required="true">
+            </p>
+            <p>CVV:
+                <input type="password" name="cvv" aria-required="true">
+            </p>
+            <input type="button" value="PayNow">
+
+        </form>
+
+    </body>
+
+</html>
