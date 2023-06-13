@@ -1,0 +1,37 @@
+
+div#background{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 20px;
+}
+
+h1{
+    background-color: aqua;
+    text-align: center;
+    
+}
+p#address{
+    text-align: justify;
+    color: rgb(4, 4, 76);
+    
+    
+}
+#form{
+    margin: 5px;
+}
+button{
+    text-align: center;
+}
+body{
+    
+    background-image: url("DSC02271.JPG");         
+    
+    background-size: 1020px ;
+    background-position: 1020px;
+    background-repeat: repeat;
+}
+#foot{
+    background-color: white;
+    color: black;
+
+}
