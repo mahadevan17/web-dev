@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576ppx){
+
+    body {
+        color: red;
+
+    }
+    h3{
+        color: blueviolet;
+    }
+}
