@@ -3,14 +3,33 @@
     text-align:center;
     background-color: rgba(218, 232, 25, 0.547); 
     background-size: cover;
-    display: inline-flex;
+    
 }
 .heading{
     text-align: center;
 }
+
+dl{
+    position:relative;
+    height:400px
+    
+}
+
+.contact{
+    position:fixed;
+    left: 50px;
+    bottom:50px;
+    width: 50px;
+    height: 20px;
+    background-color: #FF00FF;
+    text-align: center;
+
+}
+
 h3{
     font-size: 40px ;
 }
+
 dt{
     font-size: 30px;
 }
@@ -28,20 +47,27 @@ dd{
     margin-left: 10px;
 }
 img{
-    border-style: inset ;  
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    border-color: red;
+    float: right;
+    margin: 15px;
+    height: 250px;
+    width:400px;
+    top:20px;
+    bottom:20px;
+    border-radius: 10px;
+    
+    
+
+
 }
 #maincontent{
-    /*background-color: aqua;*/
+   
     background: rgba(0, 255, 255, 0.8);
     
 }
 #introcontent{
-    /*background-color: aqua;*/
+   
     background: rgba(0, 25, 255, 0.9);
+    
 }
 #navbar{
     
@@ -58,10 +84,11 @@ img{
 }
 
 #content{
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 10px;
 }
 
- a:link {
+ a:link ::after {
     color: blue;
   }
   
