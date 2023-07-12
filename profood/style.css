@@ -1,0 +1,151 @@
+.mainheading {
+    color: rgb(160, 10, 10);
+    text-align: center;
+    background-color: rgba(218, 232, 25, 0.547);
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+dl {
+    position: relative;
+    height: 400px;
+    margin-left: 10px;
+}
+
+
+#fromscroll {
+    background: rgba(177, 122, 19, 0.5);
+    height: 290px;
+}
+
+
+
+.contact {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 20px;
+    background-color: #FF00FF;
+    text-align: center;
+
+}
+
+
+
+dt {
+    font-size: 40px;
+}
+
+dd {
+    font-size: 30px;
+}
+
+#introparah {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#mainparah {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+#homeimg {
+    float: right;
+    margin: 15px;
+    height: 250px;
+    width: 400px;
+    top: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(4, 105, 182);
+}
+
+#maincontent {
+    background: rgba(0, 255, 255, 0.8);
+}
+
+#introcontent {
+    margin-left: 5px;
+    background: rgba(0, 25, 255, 0.9);
+}
+
+#navbar {
+
+    background-color: darkkhaki;
+}
+
+.forback {
+    background-image: url("docbg.jpg");
+    background-color: thistle;
+    background-size: auto;
+    width: auto;
+    height: auto;
+    background-repeat: repeat;
+}
+
+#content {
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+#pageimg{
+    margin: 15px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    border: 5px solid rgb(4, 105, 182);
+       
+}
+.misal-content{
+    display: flex;
+    border: 10px solid black;
+    height: 750px;
+    flex-basis: wrap;
+}
+
+.content1{
+    height:750px;
+    width:900px;
+    border: 2px solid black;
+    background-color:white;
+}
+.content2{
+    height:750px;
+    width:750px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 35px;
+}
+
+
+a:link ::after {
+    color: blue;
+}
+
+
+a:visited {
+    color: #ff0000;
+}
+
+
+a:hover {
+    color: #FF00FF;
+}
+
+
+a:active {
+    color: #0000FF;
+}
+
+#forfoot {
+    background-color: aliceblue;
+}
